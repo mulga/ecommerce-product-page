@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="stylesheet" href="style.css" />
+    <title>E-commerce product page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <!-- Nav-Bar  -->
+        <div class="nav-bar">
+          <div class="nav-bar-left">
+            <div class="mobile-menu">
+              <img src="images/icon-menu.svg" alt="" />
+            </div>
+            <div class="logo">
+              <img src="images/logo.svg" alt="" />
+            </div>
+            <div class="nav-menu">
+              <ul class="menu-list">
+                <li class="menu-list-item">
+                  <a href="#" class="menu-link">Collections</a>
+                </li>
+                <li class="menu-list-item">
+                  <a href="#" class="menu-link">Men</a>
+                </li>
+                <li class="menu-list-item">
+                  <a href="#" class="menu-link">Women</a>
+                </li>
+                <li class="menu-list-item">
+                  <a href="#" class="menu-link">About</a>
+                </li>
+                <li class="menu-list-item">
+                  <a href="#" class="menu-link">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!--  nav-bar-right  -->
+          <div class="nav-bar-right">
+            <ul class="right-menu-list">
+              <li class="cart-menu-item">
+                <a href="#" class="cart-menu-link">
+                  <img src="images/icon-cart.svg" alt="" />
+                </a>
+              </li>
+              <li class="account-menu-item">
+                <a href="#" class="account-menu-link">
+                  <img src="images/image-avatar.png" alt="" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <!-- product -->
+        <div class="product-wrapper">
+          <div class="product product-image-wrapper">
+            <div class="product-image"></div>
+            <div class="product-image-slider">
+              <div class="product-tumb image1"></div>
+              <div class="product-tumb image2"></div>
+              <div class="product-tumb image3"></div>
+              <div class="product-tumb image4"></div>
+            </div>
+          </div>
+
+          <!-- product-description -->
+
+          <div class="product-description">
+            <div class="brand-title-wrapper">
+              <div class="product-brand-wrapper">
+                <p class="product-brand">Sneaker Company</p>
+              </div>
+              <div class="product-title-wrapper">
+                <p class="product-title">Fall Limited Edition Sneakers</p>
+              </div>
+            </div>
+
+            <div class="product-description-wrapper">
+              <p class="product-description-text">
+                These low-profile sneakers are your perfect casual wear
+                companion. Featuring a durable rubber outer sole, they’ll
+                withstand everything the weather can offer.
+              </p>
+            </div>
+
+            <!-- price-wrapper -->
+
+            <div class="price-wrapper">
+              <p class="price">
+                $125.00 <span class="discount-procent">50%</span>
+              </p>
+              <p class="old-price">$250.00</p>
+            </div>
+            <div class="add-to-cart-wrapper">
+              <div class="quenty-wrapper">
+                <button id="quenty-down" class="quenty-btn">
+                  <img src="images/icon-minus.svg" alt="" />
+                </button>
+                <!-- <a href="#"></a> -->
+
+                <input id="quentyInput" type="text" value="0" />
+                <button id="quenty-up" class="quenty-btn">
+                  <img src="images/icon-plus.svg" alt="" />
+                </button>
+                <!-- <a href="#"></a> -->
+              </div>
+              <div class="add-to-cart">
+                <button id="addToCart">
+                  <img src="images/icon-cart.svg" alt="" /> Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
